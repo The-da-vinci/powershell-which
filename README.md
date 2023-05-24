@@ -1,10 +1,10 @@
 # Powershell-which
 
-`powershell-which` is a function that finds the path of the executable for a given command in the current PowerShell session, similar to the `which` command in Unix/Linux systems. It uses the `Get-Command` cmdlet to search for the command and returns the path using the `Definition` property of the output.
+`PowerShell-which` is a handy PowerShell function that emulates the `which` command in Unix/Linux environments. It aids users in locating the executable path for a specific command within their current PowerShell session. This function leverages the `Get-Command` cmdlet to identify the command and fetches the executable path using the `Definition` property.
 
 ## Installation
 
-To use `powershell-which`, you will need to add the function to your PowerShell profile file. To do this, follow these steps:
+Setting up `PowerShell-which` in your PowerShell environment involves adding the function to your PowerShell profile file. Here's how you can do it:
 
 1. Open PowerShell and run the following command to find the path of your profile file:
    `$profile.CurrentUserAllHosts `
@@ -14,7 +14,9 @@ To use `powershell-which`, you will need to add the function to your PowerShell 
    `notepad $profile.CurrentUserAllHosts`
 4. Add the `powershell-which` function to the profile file by copying and pasting the function code into the file.
 5. Save the profile file and close the text editor.
-   Now, you can use the `powershell-which` function in your PowerShell sessions and scripts.
+   Now, `powershell-which` function is ready for use in your PowerShell sessions and scripts.
+
+.
 
 ## Usage
 
