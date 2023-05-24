@@ -16,8 +16,6 @@ Setting up `PowerShell-which` in your PowerShell environment involves adding the
 5. Save the profile file and close the text editor.
    Now, `powershell-which` function is ready for use in your PowerShell sessions and scripts.
 
-.
-
 ## Usage
 
 ```
